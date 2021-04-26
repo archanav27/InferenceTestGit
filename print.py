@@ -13,7 +13,6 @@ print('MODEL_PATH',MODEL_PATH)
 print('OUTPUT_PATH',OUTPUT_PATH)
 print('CODE_PATH',CODE_PATH)
 
-
-f= open(os.getenv('MODEL_PATH') + "/DRS_Model.pl","w+")
-f.write("sampleline")
-f.close()
+#f= open(os.getenv('MODEL_PATH') + "/DRS_Model.pl","w+")
+#f.write("sampleline")
+#f.close()
