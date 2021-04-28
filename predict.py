@@ -6,7 +6,8 @@ if __name__ == "__main__":
     import os.path
     from os import path
 
-    print ("Is model file exists?" + str(path.isfile('Model.pl')))
+    file= os.path.join(os.getenv('MODEL_PATH'),'DRS_Model.pl')
+    print ("Is model file exists?" + str(path.isfile('DRS_Model.pl')))
     prediction_input_list = []
     with open(os.path.join(os.environ['INPUT_PATH'], 'input.csv')) as input_fd:
         prediction_input_list = input_fd.readlines()
